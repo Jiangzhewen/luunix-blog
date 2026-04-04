@@ -1,0 +1,23 @@
+export const SITE = {
+  website: "https://luunix.com/",
+  author: "Luunix",
+  profile: "https://luunix.com/",
+  desc: "技术探索与思考",
+  title: "Luunix",
+  ogImage: "astropaper-og.jpg",
+  lightAndDarkMode: true,
+  postPerIndex: 4,
+  postPerPage: 8,
+  scheduledPostMargin: 15 * 60 * 1000,
+  showArchives: true,
+  showBackButton: true,
+  editPost: {
+    enabled: false,
+    text: "",
+    url: "",
+  },
+  dynamicOgImage: true,
+  dir: "ltr",
+  lang: "zh-CN",
+  timezone: "Asia/Shanghai",
+} as const;
